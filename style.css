@@ -1,0 +1,46 @@
+:root {
+    --bg-color: #282c34;
+    --text-color: #61dafb;
+    --main-bg: #1e2127;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: white;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#app-container {
+    background-color: var(--main-bg);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+header h1 {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+    padding-bottom: 10px;
+}
+
+#system-status {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+#system-status li {
+    margin: 5px 0;
+    color: lightgreen;
+}
