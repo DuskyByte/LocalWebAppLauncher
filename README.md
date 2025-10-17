@@ -6,7 +6,7 @@ This architecture lets me swap features in and out without having to rebuild the
 
 ---
 
-## 📂 Project Architecture
+## Project Architecture
 
 This structure clearly separates the core launcher logic from the individual functional components.
 
@@ -19,13 +19,13 @@ This structure clearly separates the core launcher logic from the individual fun
 
 ---
 
-## ⚙️ Setup and Launch
+## Setup and Launch
 
 1.  **File Placement:** Place the three main files and a empty `modules` folder in a single project directory.
 2.  **Initial Component:** Ensure you have at least one module (like `demo-module.js`) inside the `modules` folder and its name is listed in the `launcher.js` SYSTEM_MODULES array.
 3.  **Launch:** Double-click **`index.html`** in your file explorer. It will open in your default browser.
 
-## 🔌 Adding a New Module
+## Adding a New Module
 
 To plug a new feature into the app, you only need to perform two steps:
 
