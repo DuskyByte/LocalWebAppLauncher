@@ -4,7 +4,7 @@ This project is the **core foundation** and **runtime engine** for all my local,
 
 ---
 
-## 🧠 Core Architecture: The Event Bus
+## Core Architecture: The Event Bus
 
 The primary feature of this launcher is the **centralized Event Bus**. All systems communicate by **publishing** and **subscribing** to events (e.g., an Audio System subscribes to a 'save' event published by the Title Screen System).
 
@@ -12,7 +12,7 @@ This design ensures that systems are **fully decoupled**: a module never needs t
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 | File Name | Location | Purpose |
 | :--- | :--- | :--- |
@@ -24,7 +24,7 @@ This design ensures that systems are **fully decoupled**: a module never needs t
 
 ---
 
-## ⚙️ Key Functionality (v1.1)
+## Key Functionality (v1.1)
 
 ### 1. Centralized Module Loading
 The `launcher.js` iterates through the `SYSTEM_MODULES` array and dynamically loads all listed systems, adhering to the Same-Origin Policy for local file execution.
